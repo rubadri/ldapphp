@@ -22,7 +22,6 @@ function authenticate($user, $password)
         // verify binding
         if ($ldapbind)
         {
-            var_dump(ldap_search ($ldapconn, "dc=daw2grup5,dc=com", 'samaccountname='));exit();
             echo "LDAP bind successful...";
 
 
@@ -32,8 +31,6 @@ function authenticate($user, $password)
         }
     }
 
-
-    
 }
 
 

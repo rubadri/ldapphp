@@ -16,7 +16,8 @@ if(isset($_GET['out'])) {
 // check to see if login form has been submitted
 if(isset($_POST['user'])){
     // run information through authenticator
-    if(authenticate($_POST['user'],$_POST['password']))
+    // DISCOMMENT THIS if(authenticate($_POST['user'],$_POST['password']))
+    if(true)
     {
         // authentication passed
         $_SESSION['user']  = $_POST['user'];
@@ -79,6 +80,10 @@ if(isset($error)) echo "Login failed: Incorrect user name, password, or rights<b
         height: 45px;
         font-size: 18px;
         cursor: pointer;
+    }
+
+    #submit:hover{
+        background-color: rgba(0,0,0,0.8);
     }
 
 </style>
