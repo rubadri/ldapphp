@@ -19,7 +19,8 @@ if(!isset($_SESSION['user'])) {
 /* FUNCTIONS */
 $user = explode(",",$_SESSION['user']);
 
-//hola estic des de la branca 2 modificant aquest fitxer
+
+//hola estic des de la branca 1 fent canvis I TAMBE hola estic des de la branca 2 modificant aquest fitxer
 
 ?>
 
