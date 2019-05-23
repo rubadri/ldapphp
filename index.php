@@ -27,7 +27,7 @@ if(isset($_POST['user'])){
         $error = 1;
     }
 }
-
+//comentaridos
 // output error to user
 if(isset($error)) echo "Login failed: Incorrect user name, password, or rights<br />";
 

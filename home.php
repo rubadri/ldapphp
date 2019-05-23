@@ -18,7 +18,7 @@ if(!isset($_SESSION['user'])) {
 
 /* FUNCTIONS */
 $user = explode(",",$_SESSION['user']);
-
+//holaquease
 
 ?>
 
